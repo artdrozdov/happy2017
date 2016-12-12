@@ -1,0 +1,96 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <title>Marry Christmas!</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="/bower_components/fullpage.js/dist/jquery.fullpage.min.css"></link>
+    <style>
+        .typed-cursor {
+            opacity: 1;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-webkit-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+        @-moz-keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section col-md-12">
+            <div class="col-md-offset-2 col-md-8">
+                <h3>Hey you! Yes you.</h3>
+                <h1><span class="typed-greetings"></span></h1>
+            </div>
+        </div>
+        <div class="section">
+            <div class="col-md-offset-2 col-md-8">
+                <h1>2016 was a magic year!</h1>
+                <h3>So much good things happened that year and I'm sure there is a lot of good things to come.</h3>
+            </div>
+        </div>
+        <div class="section">
+            <div class="col-md-offset-2 col-md-8">
+                <h1>Thank you for sharing it with me.</h1>
+                <h3>Thank you for being with me that year.</h3>
+            </div>
+        </div>
+        <div class="section">
+            <div class="col-md-offset-2 col-md-8">
+                <h3>Hope to see you in 2017.</h3>
+                <h1>Sincerelly yours, Artem Drozdov</h1>
+            </div>
+        </div>
+    </div>
+    <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="/bower_components/fullpage.js/dist/jquery.fullpage.min.js"></script>
+    <script src="/bower_components/typed.js/dist/typed.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+
+        $('.typed-greetings').typed({
+            strings: ["", "Happy New Year!"],
+            typeSpeed: 100
+        });
+    </script>
+</body>
+
+</html>
