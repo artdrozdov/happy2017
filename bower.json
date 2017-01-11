@@ -1,23 +1,23 @@
 {
-  "name": "web",
-  "description": "make that damn web work",
-  "main": "index.html",
-  "authors": [
-    "ArtD"
-  ],
-  "license": "ISC",
-  "homepage": "",
-  "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "fullpage.js": "^2.8.9",
-    "typed.js": "^1.1.4",
-    "jquery": "^3.1.1"
-  }
+    "name": "web",
+    "description": "make that damn web work",
+    "main": "index.html",
+    "authors": [
+        "ArtD"
+    ],
+    "license": "ISC",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "fullpage.js": "^2.8.9",
+        "typed.js": "^1.1.4",
+        "jquery": "^3.1.1"
+    }
 }

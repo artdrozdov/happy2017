@@ -83,7 +83,10 @@
     <script src="/happy2017/bower_components/typed.js/dist/typed.min.js"></script>
     <script>
         $(document).ready(function() {
-            $('#fullpage').fullpage();
+            $('#fullpage').fullpage({
+                navigation: true,
+                navigationPostition: 'right'
+            });
         });
 
         $('.typed-greetings').typed({
